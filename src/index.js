@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom/client';
 import TodoContainer from './components/TodoContainer';
 import './index.css';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <TodoContainer />    
-  </React.StrictMode>
+    <TodoContainer />
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function
